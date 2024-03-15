@@ -1,0 +1,261 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+
+.dashp {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  
+  color: #333;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+
+
+.dashboard-heading {
+  font-family: 'Roboto', sans-serif;
+  font-size: 36px;
+  font-weight: bold;
+  color: #333;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4); 
+
+  
+}
+
+
+.dashboard-container {
+  display: flex;
+}
+
+.dashboard-content {
+  width: 30%; 
+  padding: 20px;
+}
+
+.dashboard-button {
+  font-family: 'Roboto', sans-serif;
+  background-color: rgb(214, 161, 35);
+  border: 2px solid rgb(214, 161, 35);
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 25px;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+  margin: 10px;
+}
+
+.dashboard-button:hover {
+  background-color: transparent;
+  color: rgb(214, 161, 35);
+  transition: transform 0.3s ease-in-out;
+  transform: scale(1.2);
+}
+
+.dashboard-image {
+  width: 70%; 
+  height: 100vh; 
+  background-image: url('/dashboard.jpg'); 
+  background-size: cover;
+  background-position: center;
+}
+
+
+.order-heading {
+  font-family: 'Roboto', sans-serif;
+  font-size: 32px;
+  font-weight: bold;
+  color: #333;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4); 
+
+  
+}
+.orders-container {
+  background-color: rgb(249, 193, 88);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.orders-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.orders-list li {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  margin-bottom: 10px;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff;
+  transition: all 0.3s ease;
+}
+
+.orders-list li:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.orders-list li div {
+  display: flex;
+  align-items: center;
+}
+
+
+.orders-list li button {
+  margin-left: 30px;
+  padding: 8px 16px;
+  background-color: rgb(214, 161, 35);
+  color: #fff;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+
+.orders-list li button:hover {
+  transform: scale(1.15);
+  background-color: rgb(214, 161, 35);
+}
+.add-heading{
+  
+    font-family: 'Roboto', sans-serif;
+    font-size: 26px;
+    font-weight: bold;
+    color: #333;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4); 
+  
+    
+  
+}
+
+.add-order-container {
+  margin-top: 20px;
+}
+
+.add-order-container input,
+.add-order-container select,
+.add-order-container button {
+  margin-right: 10px;
+}
+
+.add-order-container button {
+  padding: 10px 20px;
+  background-color: rgb(214, 161, 35);
+  color: #fff;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.add-order-container button:hover {
+  transform: scale(1.15);
+  background-color: rgb(214, 161, 35);
+}
+
+
+.product-heading {
+  font-family: 'Roboto', sans-serif;
+  font-size: 32px;
+  font-weight: bold;
+  color: #333;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4); 
+}
+
+.products-container {
+  background-color: rgb(249, 193, 88);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.products-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.products-list li {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  margin-bottom: 10px;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff;
+  transition: all 0.3s ease;
+}
+
+.products-list li:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.products-list li div {
+  display: flex;
+  align-items: center;
+}
+
+
+.products-list li button {
+  margin-left: 30px;
+  padding: 8px 16px;
+  background-color: rgb(214, 161, 35);
+  color: #fff;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.products-list li button:hover {
+  transform: scale(1.15);
+  background-color: rgb(214, 161, 35);
+}
+
+.add-heading{
+  font-family: 'Roboto', sans-serif;
+  font-size: 26px;
+  font-weight: bold;
+  color: #333;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4); 
+}
+
+.add-product-container {
+  margin-top: 20px;
+}
+
+.add-product-container input,
+.add-product-container select,
+.add-product-container button {
+  margin-right: 10px;
+}
+
+.add-product-container button {
+  padding: 10px 20px;
+  background-color: rgb(214, 161, 35);
+  color: #fff;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.add-product-container button:hover {
+  transform: scale(1.15);
+  background-color: rgb(214, 161, 35);
+}
+
